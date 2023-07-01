@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 
 class GoogleSheet:
-    def __init__(self, spreadsheet_id='1HKmzhgoBHdayPp6xr3bVRH0zayc4OxLrl6i1y5rqmfc'):
+    def __init__(self, spreadsheet_id):
         self.spreadsheet_id = spreadsheet_id
         self.credentials = service_account.Credentials.from_service_account_file(
             ASSETS_DIR / 'credentials.json',

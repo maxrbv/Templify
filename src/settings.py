@@ -8,3 +8,6 @@ logging.basicConfig(
 
 BASE_DIR = Path(__file__).parent.parent.resolve()
 ASSETS_DIR = BASE_DIR / 'assets'
+FILES_DIR = BASE_DIR / 'files'
+
+BASE_SYMBOL = '¿'
