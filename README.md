@@ -2,7 +2,7 @@ README.md:
 
 # Templify
 
-Templify is a Python project that allows you to extract data from a Google Sheet and fill in the template(pptx, xlsx, docx) with the data from the Google Sheet.
+Templify is a Python project that allows you to extract data from a Google Sheet and it fill in any type of templates(pptx, xlsx, docx).
 
 ## Features
 
